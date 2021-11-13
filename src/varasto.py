@@ -38,6 +38,10 @@ class Varasto:
 
         return maara
 
-
+    def bad_func(self):
+        for x in range(20):
+            for y in range(20):
+                for z in range(20):
+                    print(x,y,z)
     def __str__(self):
         return f"saldo = {self.saldo}, vielä tilaa {self.paljonko_mahtuu()}"
